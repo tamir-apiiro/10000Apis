@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
+//    "paths": {
+//      "@handlers/*": ["handlers/*"]
+//    },
     "target": "es2016",
     "module": "commonjs",
     "esModuleInterop": true,
@@ -8,5 +12,5 @@
     "skipLibCheck": true,
     "outDir": "dist"
   },
-  "include": ["src"]
+  "include": ["./src/**/*.ts", "./src/**/*.d.ts"]
 }
