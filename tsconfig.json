@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "baseUrl": "src",
-//    "paths": {
-//      "@handlers/*": ["handlers/*"]
-//    },
+    "paths": {
+      "@handlers/*": ["handlers/*"]
+    },
     "target": "es2016",
     "module": "commonjs",
     "esModuleInterop": true,
